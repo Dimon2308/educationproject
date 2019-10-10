@@ -8,6 +8,6 @@ namespace BracesTask
 {
     class Bus: Transport
     {
-        public int numfloors { get; set; }
+        public int Numfloors { get; set; }
     }
 }
