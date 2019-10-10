@@ -10,6 +10,10 @@ namespace BracesTask
     {
         static void Main(string[] args)
         {
+            Transport my = new Transport();
+            my.Move();
+            Shpitype t = new Shpitype();
+            t = Shpitype.Kater;
         }
     }
 }

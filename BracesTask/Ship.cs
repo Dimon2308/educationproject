@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BracesTask
 {
-    class Ship
+    class Ship:Transport
     {
+        public int waterline { get; set; }
     }
 }

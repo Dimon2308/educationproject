@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BracesTask
 {
-    class bus
+    class Bus: Transport
     {
+        public int numfloors { get; set; }
     }
 }

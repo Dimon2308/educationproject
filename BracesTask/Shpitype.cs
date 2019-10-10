@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BracesTask
 {
-    class @enum
+    enum Shpitype
     {
+        Kater,
+        Lainer,
+        Lodka,
+        Jahta,
     }
 }

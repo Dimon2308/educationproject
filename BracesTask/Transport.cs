@@ -8,5 +8,11 @@ namespace BracesTask
 {
     class Transport
     {
+        public int weight { get; set; }
+        public string model { get; set; }
+        public  void Move()
+        {
+            Console.WriteLine(model + "is moving");
+        }
     }
 }

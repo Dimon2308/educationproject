@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BracesTask
 {
-    class bicycle
+    class Bicycle : Transport
     {
+        public int wheels {get;set;}
     }
 }
