@@ -12,8 +12,7 @@ namespace BracesTask
         {
             Transport my = new Transport();
             my.Move();
-            Shpitype t = new Shpitype();
-            t = Shpitype.Kater;
+            Console.ReadKey();
         }
     }
 }

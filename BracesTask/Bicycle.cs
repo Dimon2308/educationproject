@@ -8,6 +8,6 @@ namespace BracesTask
 {
     class Bicycle : Transport
     {
-        public int wheels {get;set;}
+        public int Wheels {get;set;}
     }
 }
