@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Interfaces2
 {
-    interface Interface1
+    interface ICar
     {
+        string Color { get; }
+        string Size { get; }
+        bool GoToGarage();
     }
 }

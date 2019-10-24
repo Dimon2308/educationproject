@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace Interfaces2
 {
-    class Auto
+    class Auto : ICar
     {
+        public string Color { get; }
+        public string Size { get; }
+        public Auto(string saiz, string col)
+        {
+            Size = saiz;
+            Color = col;
+        }
+        public bool GoToGarage()
+        {
+            return true;
+        }
+        public void GoGO()
+        {
+            Console.WriteLine("Stop");
+        }
     }
 }

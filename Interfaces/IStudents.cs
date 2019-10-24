@@ -8,5 +8,9 @@ namespace Interfaces
 {
     interface IStudents
     {
+        public string Name { get; }
+        public void GoToSchool();
+        {
+        }
     }
 }
